@@ -18,7 +18,9 @@ app.layout = [
 
     html.Div(className='row', children=[
         dcc.RadioItems(options=['Infant mortality', 'Birth Rate', 'Life expectancy'], 
-                       value='Birth Rate', id='main-selector', inline=True, style={'margin': '10px'}),
+                       value='Birth Rate', id='main-selector', inline=True, style={'margin': '10px', 
+                                                                                   'textAlign': 'center',
+                                                                                   'fontSize': 16}),
     ]),
 
     html.Div(className='row', children=[
